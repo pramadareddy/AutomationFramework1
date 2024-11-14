@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-07T21:01:12 CST" name="Suite" finished-at="2024-11-07T21:01:25 CST" duration-ms="12905">
+    <groups>
+      <group name="RegressionSuite">
+        <method signature="AddProductToCartTest.removeProductTest()[pri:0, instance:Products.AddProductToCartTest@4562e04d]" name="removeProductTest" class="Products.AddProductToCartTest"/>
+      </group> <!-- RegressionSuite -->
+      <group name="SmokeSuite">
+        <method signature="AddProductToCartTest.tc001_addSingleProductToCartTest()[pri:0, instance:Products.AddProductToCartTest@4562e04d]" name="tc001_addSingleProductToCartTest" class="Products.AddProductToCartTest"/>
+      </group> <!-- SmokeSuite -->
+    </groups>
+    <test started-at="2024-11-07T21:01:12 CST" name="Test-Runner-2" finished-at="2024-11-07T21:01:18 CST" duration-ms="5984">
+      <class name="Products.RemoveProductTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:Products.RemoveProductTest@10683d9d]" started-at="2024-11-07T21:01:12 CST" name="bsConfig" finished-at="2024-11-07T21:01:12 CST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:Products.RemoveProductTest@10683d9d]" started-at="2024-11-07T21:01:12 CST" name="bcConfig" finished-at="2024-11-07T21:01:16 CST" duration-ms="4053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Products.RemoveProductTest@10683d9d]" started-at="2024-11-07T21:01:16 CST" name="bmConfig" finished-at="2024-11-07T21:01:17 CST" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="sampleTest()[pri:0, instance:Products.RemoveProductTest@10683d9d]" started-at="2024-11-07T21:01:17 CST" name="sampleTest" finished-at="2024-11-07T21:01:17 CST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Products.RemoveProductTest@10683d9d]" started-at="2024-11-07T21:01:17 CST" name="amConfig" finished-at="2024-11-07T21:01:17 CST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:Products.RemoveProductTest@10683d9d]" started-at="2024-11-07T21:01:17 CST" name="acConfig" finished-at="2024-11-07T21:01:18 CST" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:Products.RemoveProductTest@10683d9d]" started-at="2024-11-07T21:01:26 CST" name="asConfig" finished-at="2024-11-07T21:01:26 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- Products.RemoveProductTest -->
+    </test> <!-- Test-Runner-2 -->
+    <test started-at="2024-11-07T21:01:12 CST" name="Test-Runner-1" finished-at="2024-11-07T21:01:25 CST" duration-ms="12905">
+      <class name="Products.AddProductToCartTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:Products.AddProductToCartTest@4562e04d]" started-at="2024-11-07T21:01:12 CST" name="bcConfig" finished-at="2024-11-07T21:01:19 CST" duration-ms="6568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Products.AddProductToCartTest@4562e04d]" started-at="2024-11-07T21:01:19 CST" name="bmConfig" finished-at="2024-11-07T21:01:19 CST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="removeProductTest()[pri:0, instance:Products.AddProductToCartTest@4562e04d]" started-at="2024-11-07T21:01:19 CST" name="removeProductTest" finished-at="2024-11-07T21:01:19 CST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Products.AddProductToCartTest@4562e04d]" started-at="2024-11-07T21:01:19 CST" name="amConfig" finished-at="2024-11-07T21:01:20 CST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Products.AddProductToCartTest@4562e04d]" started-at="2024-11-07T21:01:20 CST" name="bmConfig" finished-at="2024-11-07T21:01:20 CST" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="tc001_addSingleProductToCartTest()[pri:0, instance:Products.AddProductToCartTest@4562e04d]" started-at="2024-11-07T21:01:20 CST" name="tc001_addSingleProductToCartTest" finished-at="2024-11-07T21:01:24 CST" duration-ms="3797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc001_addSingleProductToCartTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Products.AddProductToCartTest@4562e04d]" started-at="2024-11-07T21:01:24 CST" name="amConfig" finished-at="2024-11-07T21:01:24 CST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:Products.AddProductToCartTest@4562e04d]" started-at="2024-11-07T21:01:24 CST" name="acConfig" finished-at="2024-11-07T21:01:25 CST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- Products.AddProductToCartTest -->
+    </test> <!-- Test-Runner-1 -->
+  </suite> <!-- Suite -->
+</testng-results>
